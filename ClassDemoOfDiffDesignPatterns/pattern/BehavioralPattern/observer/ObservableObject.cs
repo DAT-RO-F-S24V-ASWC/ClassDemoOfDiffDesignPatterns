@@ -58,6 +58,8 @@ namespace ClassDemoOfDiffDesignPatterns.pattern.BehavioralPattern.observer
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
+        
+
 
 
 

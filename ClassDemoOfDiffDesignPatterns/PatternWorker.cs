@@ -39,7 +39,7 @@ namespace ClassDemoOfDiffDesignPatterns
             //DemoFacade();
             //DemoProxy();
             //DemoDecorator();
-            DemoComposite();
+            //DemoComposite();
 
 
 
@@ -48,7 +48,7 @@ namespace ClassDemoOfDiffDesignPatterns
              */
             //DemoObserver();
             //DemoTemplate();
-            //DemoStrategy();
+            DemoStrategy();
             //DemoState();
 
         }
