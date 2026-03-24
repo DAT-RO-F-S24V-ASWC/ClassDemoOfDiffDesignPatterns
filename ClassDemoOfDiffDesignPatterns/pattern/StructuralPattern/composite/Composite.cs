@@ -28,7 +28,7 @@ namespace ClassDemoOfDiffDesignPatterns.pattern.StructuralPattern.composite
 
         public int TotalWeight()
         {
-            return (liste.Count == 0) ? 0 : liste.Sum(c => c.TotalWeight());
+            return (liste?.Count == 0) ? 0 : liste.Sum(c => c.TotalWeight());
         }
     }
 }

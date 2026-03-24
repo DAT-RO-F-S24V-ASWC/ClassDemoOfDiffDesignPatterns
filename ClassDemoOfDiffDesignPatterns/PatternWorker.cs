@@ -38,8 +38,8 @@ namespace ClassDemoOfDiffDesignPatterns
             //DemoAdaptor();
             //DemoFacade();
             //DemoProxy();
-            DemoDecorator();
-            //DemoComposite();
+            //DemoDecorator();
+            DemoComposite();
 
 
 
@@ -165,15 +165,16 @@ namespace ClassDemoOfDiffDesignPatterns
         {
             // some leafs 
             LeafBox b1 = new LeafBox(100);
+            Console.WriteLine(b1.TotalWeight());
 
             Composite comp1 = new Composite();
             comp1.Add(b1);
             comp1.Add(new LeafBox(50));
+            Console.WriteLine(comp1.TotalWeight());
 
             Composite comp2 = new Composite();
             comp2.Add(b1);
             comp2.Add(comp1);
-
             Console.WriteLine(comp2.TotalWeight());
 
 
